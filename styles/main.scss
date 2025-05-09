@@ -46,8 +46,9 @@
 @use "blocks/news-card";
 @use "blocks/news";
 
-//@use "blocks/video-player";
-//@use "blocks/video-card";
+@use "blocks/video-player";
+@use "blocks/video-card";
+
 //@use "blocks/table-of-contents";
 //@use "blocks/blog-details";
 //@use "blocks/report-card";
