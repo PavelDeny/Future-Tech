@@ -1,8 +1,8 @@
 const defineScrollBarWidthCSSVar = () => {
   document.documentElement.style.setProperty(
-    "--scrollbar-width",
+    '--scrollbar-width',
     `${window.innerWidth - document.documentElement.clientWidth}px`
-  );
-};
+  )
+}
 
-export default defineScrollBarWidthCSSVar;
+export default defineScrollBarWidthCSSVar
